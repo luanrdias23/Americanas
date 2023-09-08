@@ -15,7 +15,7 @@
   filter: drop-shadow(0 0 2em #ececec);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #a80505fd);
+  filter: drop-shadow(0 0 2em #f10909fd);
 }
 
 @keyframes logo-spin {
@@ -41,18 +41,40 @@
   color: #ffffff;
 }
 nav{
-  display: flex; width: 100vw;
-  justify-content: center; align-items: center;
-  height: 8vh; background-color: rgb(57, 84, 167);
-  & a{color: white; font-size: 1.5em; padding: 15px; }
+  display: flex; 
+  width: 100vw;
+  justify-content: center; 
+  align-items: center;
+  height: 8vh;
+  background-color: rgb(3, 159, 250); & a{color: white;
+  font-size: 1.5em; 
+  padding: 15px; }
 }
   
-main{ display: flex; width: 100vw;
-  flex-direction: column; justify-content: center;
-  align-items: center; height: 70vh;
+main{ display: flex;
+ width: 100vw;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  height: 70vh;
 }
 footer{
-  display: flex; width: 100vw; justify-content: center;
-  align-items: center; height: 5vh;
-  background-color: rgb(248, 248, 248);
+  display: flex; 
+  width: 100vw; 
+  justify-content: center;
+  align-items: center; 
+  height: 5vh;
+  background-color: rgb(19, 22, 233);
+}
+.promo-container {
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.promo {
+  width: 400px; 
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center; 
 }
