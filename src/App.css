@@ -78,3 +78,23 @@ footer{
   cursor: pointer;
   text-align: center; 
 }
+.produto-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 2px;
+  width: 110px;
+}
+
+.produto img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
